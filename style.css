@@ -1,0 +1,149 @@
+/* ヘッター */
+header {
+    height: 70px;
+    font-size: 20px;
+    font-family: 'Zen Antique Soft', serif;
+    background-color: #d2b48c;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+.header-logo a{
+    text-decoration: none;
+    color: #8b4513;
+}
+
+.header-list ul {
+    display: flex;
+  }
+
+.header-list li{
+    list-style: none;
+}
+
+.header-list li a {
+    text-decoration: none;
+    color: #8b4513;
+    margin-left: 25px;
+}
+
+.header-list li:hover {
+    opacity: 0.5;
+}
+
+/* トップ画面 */
+.top img {
+    width: 100%;
+}
+
+/* 共通css(幅) */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* 共通css(見出し) */
+.section-title {
+    color: #8b4513;
+    font-size: 40px;
+    font-family: 'Zen Antique Soft', serif;
+    text-align: center;
+}
+
+/* 共通css(本文)*/
+.section-text {
+    color: #8b4513;
+    font-size: 15px;
+    font-family: 'Zen Antique', serif;
+    text-align: center;
+}
+
+/* slick */
+.slide img {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* メニュー */
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.menu-item a {
+    color: #8b4513;
+    font-size: 15px;
+    font-family: 'Zen Antique', serif;
+    text-decoration: none;
+    width: 100%;
+}
+
+.menu-item:hover {
+    opacity: 0.5;
+    transition: all .3s ease;
+    transform: scale(1.1);
+}
+
+/* アクセス */
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.access-text {
+    display: flex;
+    align-items: center;
+    color: #8b4513;
+    font-size: 15px;
+    font-family: 'Zen Antique', serif;
+}
+
+.access-text h5{
+    width: 100px;
+}
+
+/* フッター */
+footer {
+    height: 120px;
+    background-color: #d2b48c;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-text {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Zen Antique Soft', serif;
+    display: flex;
+}
+
+.footer-list li{
+    list-style: none;
+    display: flex;
+}
+
+.footer-list img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer-list img:hover {
+    opacity: 0.5;
+    transition: all .3s ease;
+    transform: scale(1.1);
+}
